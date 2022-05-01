@@ -818,6 +818,12 @@ address,
   padding: 10px;
 }
 
+.modal-inputbox-comment:focus {
+  fill: var(--main-color);
+  outline: none;
+  border-color: var(--main-color);
+}
+
 .modal-form-icon {
   fill: black;
   position: relative;
